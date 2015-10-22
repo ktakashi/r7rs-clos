@@ -101,9 +101,10 @@
 
     (define-syntax define-class
       (syntax-rules ()
-	((_ name (supers ...) (slot option ...) ...)
-	 (define name
+	((_ class-name (supers ...) (slot option ...) ...)
+	 (define class-name
 	   (make <class>
+	     'name 'class-name
 	     'direct-supers (list supers ... <object>)
 	     'direct-slots (list (list 'slot option ...) ...))))))
 
