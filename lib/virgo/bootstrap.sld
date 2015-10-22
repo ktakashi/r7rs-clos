@@ -47,7 +47,7 @@
 	  <procedure-class> <entity-class> 
 	  <generic> <method>
 	  <boolean> <symbol> <char> <vector> <pair> <number>
-	  <string> <procedure>  <port> <unknown>
+	  <string> <procedure> <port> <bytevector> <unknown>
 	  )
   ;; trick to load protocol first
   (import (scheme base) (scheme cxr) (virgo misc) (virgo protocol))

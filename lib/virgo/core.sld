@@ -47,11 +47,12 @@
 	  <procedure-class> <entity-class> 
 	  <generic> <method>
 	  <boolean> <symbol> <char> <vector> <pair> <number>
-	  <string> <procedure>  <port> <unknown>
+	  <string> <procedure> <port> <bytevector> <unknown>
 
 	  print-object display-object write-object
 	  )
   (import (scheme base)
+	  (scheme write)
 	  (virgo bootstrap)
 	  (virgo misc))
   (begin

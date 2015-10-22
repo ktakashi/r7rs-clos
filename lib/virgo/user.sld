@@ -38,7 +38,7 @@
 	  <procedure-class> <entity-class> 
 	  <generic> <method>
 	  <boolean> <symbol> <char> <vector> <pair> <number>
-	  <string> <procedure>)
+	  <string> <procedure> <port> <bytevector> <unknown>)
   (import (scheme base)
 	  (virgo core))
   (begin

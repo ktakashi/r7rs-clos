@@ -42,3 +42,9 @@ APIs
 TBD
 
 
+Supporting implementations
+==========================
+
+- Sagittarius (0.6.9)
+- Gauche (HEAD)
+- Chibi Scheme (0.7.3)

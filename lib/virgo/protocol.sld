@@ -49,7 +49,7 @@
 	  <procedure-class> <entity-class> 
 	  <generic> <method>
 	  <boolean> <symbol> <char> <vector> <pair> <number>
-	  <string> <procedure> <port> <unknown>
+	  <string> <procedure> <port> <bytevector> <unknown>
 
 	  ;; internal use only
 	  %allocate-instance %instance-set! compute-std-cpl
@@ -434,6 +434,7 @@
 (define-primitive-class <number> )
 (define-primitive-class <string> )
 (define-primitive-class <port>   )
+(define-primitive-class <bytevector>)
 (define-primitive-class <unknown>)
 (define-primitive-class <procedure> <procedure-class>)
 
@@ -451,6 +452,7 @@
 	  ((string? x)     <string>)
 	  ((procedure? x)  <procedure>)
 	  ((port? x)       <port>)
+	  ((bytevector? x) <bytevector>)
 	  (else            <unknown>))))
 
 (define make-class
