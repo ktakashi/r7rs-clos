@@ -33,7 +33,7 @@
 	  generic-methods
 	  method-specializers method-procedure
 	  
-	  make make-class make-generic make-method
+	  make-class make-generic make-method
 
 	  applicable? more-specific?
 
